@@ -34,7 +34,7 @@ else:
 
 # Take input percentage of a student and print the Grade according to marks:
 
-marks=int(input('Enter the marks percentage '))
+""" marks=int(input('Enter the marks percentage '))
 if marks>80:
     print('Very Good')
 elif marks>60:
@@ -42,4 +42,16 @@ elif marks>60:
 elif marks>40:
     print('Average')
 else:
-    print('Fail')
+    print('Fail') """
+
+# Multiple condition using "and" and "or"
+
+eng_marks=int(input('Enter marks in english: '))
+math_marks=int(input('Enter marks in math: '))
+
+if eng_marks>80 and math_marks>80:
+    print('A')
+elif eng_marks>80 or math_marks>80:
+    print('B')
+else :
+    print('C')
