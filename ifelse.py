@@ -46,7 +46,7 @@ else:
 
 # Multiple condition using "and" and "or"
 
-eng_marks=int(input('Enter marks in english: '))
+""" eng_marks=int(input('Enter marks in english: '))
 math_marks=int(input('Enter marks in math: '))
 
 if eng_marks>80 and math_marks>80:
@@ -54,4 +54,11 @@ if eng_marks>80 and math_marks>80:
 elif eng_marks>80 or math_marks>80:
     print('B')
 else :
-    print('C')
+    print('C') """
+
+#Take positive integer input and tell if it is a four digit number or not
+number=int(input('Enter number '))
+if number>=1000 and number <= 9999:
+    print('the given number is four digit number')
+else:
+    print('false')
