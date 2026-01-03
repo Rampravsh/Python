@@ -21,7 +21,7 @@ else:
 # write a prgram to determine whether the seller has made profit or incurred loss
 # or no profit loss. Also determine how much profit he made or loss he incurred.
 
-cost =int(input('Enter the cost price of the product '))
+""" cost =int(input('Enter the cost price of the product '))
 selling =int(input('Enter the selling price of the product '))
 
 if selling>cost:
@@ -29,4 +29,17 @@ if selling>cost:
 elif cost>selling:
     print('you made loss on this product ',cost-selling)
 else:
-    print('no loss no profit on this product')
+    print('no loss no profit on this product') """
+
+
+# Take input percentage of a student and print the Grade according to marks:
+
+marks=int(input('Enter the marks percentage '))
+if marks>80:
+    print('Very Good')
+elif marks>60:
+    print('Good')
+elif marks>40:
+    print('Average')
+else:
+    print('Fail')
