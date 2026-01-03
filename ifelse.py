@@ -57,8 +57,20 @@ else :
     print('C') """
 
 #Take positive integer input and tell if it is a four digit number or not
-number=int(input('Enter number '))
+""" number=int(input('Enter number '))
 if number>=1000 and number <= 9999:
     print('the given number is four digit number')
 else:
-    print('false')
+    print('false') """
+
+# Take 3 positive integers input and print the greatest of them
+n1=int(input("Enter n1 "))
+n2=int(input("Enter n2 "))
+n3=int(input("Enter n3 "))
+
+if n1>n2 and n1>n3:
+    print('n1 is greatest number')
+elif n2>n1 and n2>n3:
+    print('n2 is greatest number')
+else:
+    print('n3 is the greatest number')
