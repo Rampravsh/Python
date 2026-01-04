@@ -16,3 +16,11 @@
 // };
 // let nums = [2, 2, 1];
 // console.log(singleNumber(nums));
+let n = 10;
+for (let i = 0; i < n; i++) {
+  let row = "";
+  for (let j = 1; j <=n; j++) {
+    row += j;
+  }
+  console.log(row);
+}
