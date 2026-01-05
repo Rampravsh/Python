@@ -37,5 +37,25 @@ names ={'ria','tia','sia'}
 # names.remove('pia')  # gives error if not present in the set
 # print(names)
 
-names.discard('pia')  #it gives error if that item even not present in set
-print(names)
+# names.discard('pia')  #it gives error if that item even not present in set
+# print(names)
+
+# joining 2 sets
+
+s1={'a','b','c'}
+s2={'d','e','a'}
+print(s1,s2)
+# s3=s1.union(s2)
+# print(s3)
+
+
+#keep only duplicates while joining
+# s1.intersection_update(s2)
+# print(s1)
+
+#keep all values except duplicates
+
+s1.symmetric_difference_update(s2)
+
+print(s1)
+
