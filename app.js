@@ -41,3 +41,19 @@
 //     }
 //     return false
 // };
+
+var intersection = function (nums1, nums2) {
+    let a = new Set(nums1)
+    let b = new Set(nums2)
+    let res = new Array()
+    for (let num of a) {
+        if (b.has(num)) {
+            res.push(num)
+        }
+    }
+    return res
+};
+
+let nums1 = [1, 2, 2, 1]
+let nums2 = [2, 2]
+console.log(intersection(nums1, nums2)) 
